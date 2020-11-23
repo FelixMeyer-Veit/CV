@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="36317192-b2d7-471a-806b-d213d2f637a1" name="Default Changelist" comment="" />
+    <list default="true" id="36317192-b2d7-471a-806b-d213d2f637a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLL/part1/Exercise4/.idea/Exercise4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLL/part2/.idea/part2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLL/part4-extract/.idea/part4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLL/part4/.idea/part4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NLP/Assignment_01/.idea/NLP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NLP/Assignment_02/MIM-GOLD/.idea/MIM-GOLD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NLP/Lecture_NN/NLM/.idea/NLM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/.idea/helloworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../opencv/.idea/opencv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_assignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/CV.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/01_assignment.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kgpmoF6MwOK8llz63v8WWAimQS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -65,6 +99,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606132407480">
       <screen x="0" y="0" width="1280" height="680" />
@@ -74,21 +119,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606132436113" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1606134271601">
+    <state width="619" height="162" key="GridCell.Tab.0.bottom" timestamp="1606148063534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606134271601" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1606134271601">
+    <state width="619" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606148063534" />
+    <state width="619" height="162" key="GridCell.Tab.0.center" timestamp="1606148063533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606134271601" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1606134271600">
+    <state width="619" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606148063533" />
+    <state width="619" height="162" key="GridCell.Tab.0.left" timestamp="1606148063533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606134271600" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1606134271601">
+    <state width="619" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606148063533" />
+    <state width="619" height="162" key="GridCell.Tab.0.right" timestamp="1606148063533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606134271601" />
+    <state width="619" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606148063533" />
   </component>
 </project>
