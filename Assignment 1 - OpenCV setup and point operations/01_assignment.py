@@ -12,7 +12,12 @@ prev_frame_time = 0
 # used to record the time at which we processed current frame
 new_frame_time = 0
 
+fps_1 = fps_2 = fps_3 = iteration = 0
+
 while (True):
+
+    iteration += 1
+
 
     # Capture the video frame
     # by frame
@@ -35,12 +40,25 @@ while (True):
     # converting the fps into integer
     fps = int(fps)
 
+    if iteration == 1:
+        fps_1 = fps
+    elif iteration == 2:
+        fps_2 = fps
+    elif iteration == 3:
+        fps_3 = fps
+        iteration = 0
+
+    fps_avg = (fps_1 + fps_2 + fps_3) / 3
+
+    fps_avg = int(fps_avg)
+
     # converting the fps to string so that we can display it on frame
     # by using putText function
-    fps = str(fps)
+    fps_avg = str(fps_avg)
 
     # puting the FPS count on the frame
-    cv2.putText(frame, fps, (7, 70), font, 3, (100, 255, 0), 3, cv2.LINE_AA)
+    cv2.putText(frame, fps_avg, (7, 70), font, 3, (100, 255, 0), 3, cv2.LINE_AA)
+    
 
     # convert image to grayscale
     orig = frame.copy()
@@ -53,6 +71,10 @@ while (True):
     # the area of the image with the largest intensity value
     (minVal, maxVal, minLoc, maxLoc) = cv2.minMaxLoc(gray)
     cv2.circle(frame, maxLoc, 5, (255, 0, 0), 2)
+
+    maxLoc = str(maxLoc)
+    # puting the Location on the frame
+    cv2.putText(frame, maxLoc, (7, 450), font, 1, (255, 0, 0), 1, cv2.LINE_AA)
 
     # Display the resulting frame
     cv2.imshow('Webcam', frame)
