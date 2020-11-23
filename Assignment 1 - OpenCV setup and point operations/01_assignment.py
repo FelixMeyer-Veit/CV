@@ -8,6 +8,9 @@ import numpy
 # define a video capture object
 vid = cv2.VideoCapture(0)
 
+# with mobile phone
+#vid = cv2.VideoCapture('http://192.168.10.102/6677')
+
 # used to record the time when we processed last frame
 prev_frame_time = 0
 
