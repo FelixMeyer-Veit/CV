@@ -4,12 +4,15 @@ import cv2
 import time
 import numpy
 
+
 ################################################ DECLARATIONS ##########################################################
-# define a video capture object
+# define a video capture object (webcam)
 vid = cv2.VideoCapture(0)
 
 # with mobile phone
-#vid = cv2.VideoCapture('http://192.168.10.102/6677')
+#URL = 'http://192.168.10.102:6677/video'
+#vid = cv2.VideoCapture(URL)
+
 
 # used to record the time when we processed last frame
 prev_frame_time = 0
